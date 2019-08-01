@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>JAVASCRIPT</title>
+	<script>
+	
+	function navegador(){
+	var nomes =document.getElementById('nome');
+	var idade = document.getElementById('idade');
+	var sexo = document.getElementById("sexo");
+	console.log(nomes.value); 
+	document.getElementById("texto").innerHTML = nomes.value;
+	document.getElementById("texto1").innerHTML = idade.value;
+	document.getElementById("t_sexo").innerHTML = sexo.value;
+	}
+
+	</script>
+	</head>
+	<body>
+	<nav>
+		<ul>
+		</ul>
+	</nav>
+	
+	<p id="texto"></p>
+	<p id ="texto1"></p>
+	<p id="t_sexo" ></p>
+	Digite seu nome: <input type="text" id="nome" ></input>
+	Digite sua idade: <input type="text" id="idade"></input>
+	Digite seu sexo: <input type="text" id="sexo"></input>
+	<button onclick="navegador()">Nome</button>
+</body>
+</html>
