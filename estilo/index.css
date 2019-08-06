@@ -1,5 +1,5 @@
 body{
-	background-color:#3B0B17;
+	background-color:#8A084B;
 	padding:10%;
 	}
 #box_fundo{
@@ -24,15 +24,32 @@ body{
 	padding:10px;
 		}
 #campos{
-	font-size:20px;
+	font-size:12px;
+	font-family:'roboto';
+	font-size:18px;
 	color:#fff;
-	font-family:roboto;
 	
 }
 #botoes{
 
 	padding:10px;
 	opacity:0.9;
+}
+.username{
+	background-image:url("http://localhost:8081/mescla/user.png");
+	background-repeat:no-repeat;
+	background-size:15px;
+	padding-left:20px;
+	border-radius:5px;
+	color:#a4a4a4;
+}
+.password{
+        background-image:url("http://localhost:8081/mescla/password.png");
+        background-repeat:no-repeat;
+        background-size:15px;
+        padding-left:20px;
+        border-radius:5px;
+
 }
 
 
